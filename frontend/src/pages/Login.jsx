@@ -67,7 +67,7 @@ function Login() {
                 </div>
                 <div>
                     <label htmlFor="name">Password</label>
-                    <input type="text" name="password" id="" placeholder='enter your password' value={loginInfo.password} onChange={handleChange} autoComplete='off'/>
+                    <input type="password" name="password" id="" placeholder='enter your password' value={loginInfo.password} onChange={handleChange} autoComplete='off'/>
                 </div>
                 <button type='submit'>Login</button>
                 <span>Don't have an account ?
