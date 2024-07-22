@@ -76,7 +76,7 @@ function Signup() {
                 </div>
                 <div>
                     <label htmlFor="name">Password</label>
-                    <input type="text" name="password" id="" placeholder='enter your password' value={signupInfo.password} onChange={handleChange} />
+                    <input type="password" name="password" id="" placeholder='enter your password' value={signupInfo.password} onChange={handleChange} />
                 </div>
                 <button type='submit' className='signuptbtn'>Signup</button>
                 <span>Already an account ?
